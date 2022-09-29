@@ -1,0 +1,15 @@
+[2022-09-29 06:23:02,690][__main__][INFO] - model:
+  name: google/bert_uncased_L-2_H-128_A-2
+  tokenizer: google/bert_uncased_L-2_H-128_A-2
+processing:
+  batch_size: 64
+  max_length: 128
+training:
+  max_epochs: 1
+  log_every_n_steps: 10
+  deterministic: true
+  limit_train_batches: 0.25
+  limit_val_batches: 0.25
+
+[2022-09-29 06:23:02,694][__main__][INFO] - Using the model: google/bert_uncased_L-2_H-128_A-2
+[2022-09-29 06:23:02,701][__main__][INFO] - Using the tokenizer: google/bert_uncased_L-2_H-128_A-2

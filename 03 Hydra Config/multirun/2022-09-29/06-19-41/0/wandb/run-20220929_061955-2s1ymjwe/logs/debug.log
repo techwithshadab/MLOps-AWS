@@ -1,0 +1,51 @@
+2022-09-29 06:19:55,193 INFO    MainThread:17148 [wandb_setup.py:_flush():68] Configure stats pid to 17148
+2022-09-29 06:19:55,193 INFO    MainThread:17148 [wandb_setup.py:_flush():68] Loading settings from C:\Users\bhatt\.config\wandb\settings
+2022-09-29 06:19:55,193 INFO    MainThread:17148 [wandb_setup.py:_flush():68] Loading settings from C:\Users\bhatt\OneDrive\Documents\MLOps\week_2_hydra_config\multirun\2022-09-29\06-19-41\0\wandb\settings
+2022-09-29 06:19:55,193 INFO    MainThread:17148 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-09-29 06:19:55,194 INFO    MainThread:17148 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': '..\\..\\..\\..\\train.py', 'program': 'C:\\Users\\bhatt\\OneDrive\\Documents\\MLOps\\week_2_hydra_config\\train.py'}
+2022-09-29 06:19:55,194 INFO    MainThread:17148 [wandb_init.py:_log_setup():476] Logging user logs to C:\Users\bhatt\OneDrive\Documents\MLOps\week_2_hydra_config\multirun\2022-09-29\06-19-41\0\wandb\run-20220929_061955-2s1ymjwe\logs\debug.log
+2022-09-29 06:19:55,194 INFO    MainThread:17148 [wandb_init.py:_log_setup():477] Logging internal logs to C:\Users\bhatt\OneDrive\Documents\MLOps\week_2_hydra_config\multirun\2022-09-29\06-19-41\0\wandb\run-20220929_061955-2s1ymjwe\logs\debug-internal.log
+2022-09-29 06:19:55,195 INFO    MainThread:17148 [wandb_init.py:init():516] calling init triggers
+2022-09-29 06:19:55,195 INFO    MainThread:17148 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-09-29 06:19:55,195 INFO    MainThread:17148 [wandb_init.py:init():569] starting backend
+2022-09-29 06:19:55,195 INFO    MainThread:17148 [wandb_init.py:init():573] setting up manager
+2022-09-29 06:19:55,204 INFO    MainThread:17148 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn, using: spawn
+2022-09-29 06:19:55,213 INFO    MainThread:17148 [wandb_init.py:init():580] backend started and connected
+2022-09-29 06:19:55,220 INFO    MainThread:17148 [wandb_init.py:init():658] updated telemetry
+2022-09-29 06:19:55,221 INFO    MainThread:17148 [wandb_init.py:init():692] communicating run to backend with 30 second timeout
+2022-09-29 06:19:59,293 WARNING MsgRouterThr:17148 [router.py:message_loop():77] message_loop has been closed
+2022-09-29 06:20:25,237 ERROR   MainThread:17148 [wandb_init.py:init():703] backend process timed out
+2022-09-29 06:20:25,237 ERROR   MainThread:17148 [wandb_init.py:init():712] encountered error: Error communicating with wandb process
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2022-09-29 06:20:35,260 INFO    MainThread:17148 [wandb_setup.py:_flush():68] Configure stats pid to 17148
+2022-09-29 06:20:35,261 INFO    MainThread:17148 [wandb_setup.py:_flush():68] Loading settings from C:\Users\bhatt\.config\wandb\settings
+2022-09-29 06:20:35,261 INFO    MainThread:17148 [wandb_setup.py:_flush():68] Loading settings from C:\Users\bhatt\OneDrive\Documents\MLOps\week_2_hydra_config\multirun\2022-09-29\06-19-41\0\wandb\settings
+2022-09-29 06:20:35,261 INFO    MainThread:17148 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-09-29 06:20:35,261 INFO    MainThread:17148 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': '..\\..\\..\\..\\train.py', 'program': 'C:\\Users\\bhatt\\OneDrive\\Documents\\MLOps\\week_2_hydra_config\\train.py'}
+2022-09-29 06:20:35,261 INFO    MainThread:17148 [wandb_init.py:_log_setup():476] Logging user logs to C:\Users\bhatt\OneDrive\Documents\MLOps\week_2_hydra_config\multirun\2022-09-29\06-19-41\1\wandb\run-20220929_062035-26wp9x19\logs\debug.log
+2022-09-29 06:20:35,262 INFO    MainThread:17148 [wandb_init.py:_log_setup():477] Logging internal logs to C:\Users\bhatt\OneDrive\Documents\MLOps\week_2_hydra_config\multirun\2022-09-29\06-19-41\1\wandb\run-20220929_062035-26wp9x19\logs\debug-internal.log
+2022-09-29 06:20:35,262 INFO    MainThread:17148 [wandb_init.py:init():516] calling init triggers
+2022-09-29 06:20:35,262 INFO    MainThread:17148 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-09-29 06:20:35,262 INFO    MainThread:17148 [wandb_init.py:init():569] starting backend
+2022-09-29 06:20:35,262 INFO    MainThread:17148 [wandb_init.py:init():573] setting up manager
+2022-09-29 06:20:35,295 ERROR   MainThread:17148 [wandb_init.py:init():1103] error
+Traceback (most recent call last):
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\wandb_init.py", line 1076, in init
+    run = wi.init()
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\wandb_init.py", line 574, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\wandb_manager.py", line 170, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\service\service_sock.py", line 38, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\lib\sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\lib\sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\lib\sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\lib\sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host

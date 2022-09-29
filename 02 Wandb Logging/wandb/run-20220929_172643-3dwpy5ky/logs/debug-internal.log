@@ -1,0 +1,624 @@
+2022-09-29 17:26:44,049 INFO    StreamThr :24936 [internal.py:wandb_internal():88] W&B internal server running at pid: 24936, started at: 2022-09-29 17:26:44.046374
+2022-09-29 17:26:44,126 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: status
+2022-09-29 17:26:44,126 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: status
+2022-09-29 17:26:44,170 DEBUG   SenderThread:24936 [sender.py:send():301] send: header
+2022-09-29 17:26:44,170 INFO    WriterThread:24936 [datastore.py:open_for_write():75] open: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\run-3dwpy5ky.wandb
+2022-09-29 17:26:44,172 DEBUG   SenderThread:24936 [sender.py:send():301] send: run
+2022-09-29 17:26:44,178 INFO    SenderThread:24936 [sender.py:_maybe_setup_resume():577] checking resume status for techwithshadab/MLOPS/3dwpy5ky
+2022-09-29 17:26:45,557 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: check_version
+2022-09-29 17:26:45,560 INFO    SenderThread:24936 [dir_watcher.py:__init__():216] watching files in: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files
+2022-09-29 17:26:45,561 INFO    SenderThread:24936 [sender.py:_start_run_threads():912] run started: 3dwpy5ky with start time 1664452604.047371
+2022-09-29 17:26:45,561 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:26:45,562 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:26:45,563 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: check_version
+2022-09-29 17:26:45,792 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: run_start
+2022-09-29 17:26:46,602 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:26:46,883 DEBUG   HandlerThread:24936 [meta.py:__init__():34] meta init
+2022-09-29 17:26:46,883 DEBUG   HandlerThread:24936 [meta.py:__init__():49] meta init done
+2022-09-29 17:26:46,883 DEBUG   HandlerThread:24936 [meta.py:probe():215] probe
+2022-09-29 17:26:46,890 DEBUG   HandlerThread:24936 [meta.py:_save_pip():53] save pip
+2022-09-29 17:26:46,892 DEBUG   HandlerThread:24936 [meta.py:_save_pip():67] save pip done
+2022-09-29 17:26:46,893 DEBUG   HandlerThread:24936 [meta.py:_save_conda():74] save conda
+2022-09-29 17:26:47,618 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\requirements.txt
+2022-09-29 17:26:47,619 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\conda-environment.yaml
+2022-09-29 17:26:55,777 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\media\table\conf_table_0_882d82e6af65f8db1af0.table.json
+2022-09-29 17:26:55,777 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\media\table
+2022-09-29 17:26:55,778 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\media
+2022-09-29 17:26:58,812 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\media\table\examples_1_233da4091e931a38d7b6.table.json
+2022-09-29 17:26:58,813 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\media\table
+2022-09-29 17:27:23,411 DEBUG   HandlerThread:24936 [meta.py:_save_conda():84] save conda done
+2022-09-29 17:27:23,412 DEBUG   HandlerThread:24936 [meta.py:probe():253] probe done
+2022-09-29 17:27:23,947 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:27:23,948 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:27:23,962 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: log_artifact
+2022-09-29 17:27:23,963 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:27:23,965 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: log_artifact
+2022-09-29 17:27:23,966 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:27:23,972 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:27:24,181 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-metadata.json
+2022-09-29 17:27:24,367 DEBUG   SenderThread:24936 [sender.py:send():301] send: telemetry
+2022-09-29 17:27:24,368 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:24,369 DEBUG   SenderThread:24936 [sender.py:send():301] send: telemetry
+2022-09-29 17:27:24,369 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:24,369 WARNING SenderThread:24936 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-29 17:27:24,369 DEBUG   SenderThread:24936 [sender.py:send():301] send: config
+2022-09-29 17:27:24,481 DEBUG   SenderThread:24936 [sender.py:send():301] send: config
+2022-09-29 17:27:24,482 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: log_artifact
+2022-09-29 17:27:25,188 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:27:27,205 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:27:27,886 INFO    Thread-18 :24936 [upload_job.py:push():97] Uploaded file C:\Users\bhatt\.cache\wandb\artifacts\obj\md5\32\673cec8431ce366f4453e31259274a
+2022-09-29 17:27:29,677 INFO    SenderThread:24936 [sender.py:send_request_log_artifact():1206] logged artifact run-3dwpy5ky-conf_table - {'id': 'QXJ0aWZhY3Q6MjA4MjA0OTYy', 'digest': '1203c11b5790b1e20102d031c53bdbe4', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5ODQwMzcw', 'latestArtifact': None}, 'version': 'latest'}
+2022-09-29 17:27:29,677 DEBUG   SenderThread:24936 [sender.py:send():301] send: files
+2022-09-29 17:27:29,677 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file media\table\conf_table_0_882d82e6af65f8db1af0.table.json with policy now
+2022-09-29 17:27:29,680 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:29,680 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:29,681 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:29,681 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:29,681 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:29,681 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:29,682 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:29,683 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:29,683 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:27:29,683 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:27:29,689 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:27:29,691 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: log_artifact
+2022-09-29 17:27:30,226 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:27:30,532 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:27:30,838 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:27:31,054 INFO    Thread-19 :24936 [upload_job.py:push():139] Uploaded file C:\Users\bhatt\AppData\Local\Temp\tmpsog8bquqwandb\2ja050ot-media/table/conf_table_0_882d82e6af65f8db1af0.table.json
+2022-09-29 17:27:32,600 INFO    Thread-21 :24936 [upload_job.py:push():97] Uploaded file C:\Users\bhatt\.cache\wandb\artifacts\obj\md5\21\9353e3a9efc6f2aeeb65f36453e464
+2022-09-29 17:27:34,503 INFO    SenderThread:24936 [sender.py:send_request_log_artifact():1206] logged artifact run-3dwpy5ky-examples - {'id': 'QXJ0aWZhY3Q6MjA4MjA1MDI2', 'digest': '3cf64cd4ca29716ff469b75880821681', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5ODQwMzcy', 'latestArtifact': None}, 'version': 'latest'}
+2022-09-29 17:27:34,504 DEBUG   SenderThread:24936 [sender.py:send():301] send: files
+2022-09-29 17:27:34,505 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file media\table\examples_1_233da4091e931a38d7b6.table.json with policy now
+2022-09-29 17:27:34,507 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:34,508 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:34,508 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:34,509 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:34,509 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:34,509 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:34,509 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:34,509 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:34,510 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:34,510 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:27:34,510 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:27:34,512 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:27:34,513 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:27:35,080 DEBUG   SenderThread:24936 [sender.py:send():301] send: stats
+2022-09-29 17:27:35,081 DEBUG   SenderThread:24936 [sender.py:send():301] send: files
+2022-09-29 17:27:35,083 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-metadata.json with policy now
+2022-09-29 17:27:35,089 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:35,090 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:35,091 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:27:35,091 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:27:35,092 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:27:35,096 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:27:35,097 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:27:35,267 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:27:36,015 INFO    Thread-22 :24936 [upload_job.py:push():139] Uploaded file C:\Users\bhatt\AppData\Local\Temp\tmpsog8bquqwandb\r8vwrhox-media/table/examples_1_233da4091e931a38d7b6.table.json
+2022-09-29 17:27:36,344 INFO    Thread-23 :24936 [upload_job.py:push():139] Uploaded file C:\Users\bhatt\AppData\Local\Temp\tmpsog8bquqwandb\2jxfu3w0-wandb-metadata.json
+2022-09-29 17:27:37,291 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:27:39,325 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:27:41,378 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:27:45,476 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:27:45,477 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\config.yaml
+2022-09-29 17:27:47,573 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:27:49,609 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:27:50,565 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:27:50,565 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:27:53,664 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:27:54,333 DEBUG   SenderThread:24936 [sender.py:send():301] send: stats
+2022-09-29 17:27:56,804 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:27:58,824 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:00,362 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:28:00,364 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:28:00,364 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:28:00,366 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:28:00,866 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:28:02,882 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:04,943 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:06,008 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:28:06,008 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:28:06,953 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:11,002 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:13,014 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:17,115 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:19,129 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:21,146 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:21,459 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:28:21,459 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:28:25,179 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:27,209 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:28,900 DEBUG   SenderThread:24936 [sender.py:send():301] send: stats
+2022-09-29 17:28:29,055 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:28:29,056 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:28:29,057 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:28:29,058 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:28:29,234 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:28:31,252 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:33,298 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:36,921 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:28:36,922 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:28:37,334 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:39,367 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:41,404 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:45,474 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:47,488 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:49,508 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:52,355 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:28:52,355 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:28:53,539 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:55,576 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:28:57,316 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:28:57,317 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:28:57,318 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:28:57,324 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:28:57,611 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:28:59,623 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:01,630 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:03,477 DEBUG   SenderThread:24936 [sender.py:send():301] send: stats
+2022-09-29 17:29:03,648 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:07,687 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:07,810 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:29:07,811 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:29:09,726 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:13,763 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:15,795 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:19,841 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:21,869 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:23,219 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:29:23,219 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:29:23,881 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:25,971 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:29:25,973 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:29:25,974 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:29:25,975 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:29:26,926 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:29:27,945 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:31,975 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:33,995 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:36,019 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:37,686 DEBUG   SenderThread:24936 [sender.py:send():301] send: stats
+2022-09-29 17:29:38,661 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:29:38,661 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:29:40,059 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:42,082 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:46,112 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:48,132 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:52,166 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:54,105 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:29:54,105 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:29:54,183 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:29:55,179 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:29:55,181 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:29:55,181 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:29:55,183 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:29:55,187 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:29:56,195 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:00,233 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:02,250 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:04,258 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:08,299 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:09,581 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:30:09,582 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:30:10,327 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:12,070 DEBUG   SenderThread:24936 [sender.py:send():301] send: stats
+2022-09-29 17:30:14,375 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:16,383 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:20,411 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:22,453 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:23,419 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:30:23,420 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:30:23,421 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:30:23,429 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:30:23,441 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:30:25,041 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:30:25,041 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:30:26,465 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:28,495 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:32,582 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:34,611 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:36,639 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:40,497 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:30:40,497 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:30:40,687 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:44,765 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:45,807 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:46,634 DEBUG   SenderThread:24936 [sender.py:send():301] send: stats
+2022-09-29 17:30:49,837 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:51,896 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:54,315 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:30:54,316 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:30:54,317 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:30:54,322 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:30:54,924 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:30:55,937 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:30:56,000 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:30:56,001 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:30:59,998 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:02,015 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:04,044 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:06,063 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:08,104 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:11,482 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:31:11,482 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:31:12,180 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:16,251 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:18,268 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:21,912 DEBUG   SenderThread:24936 [sender.py:send():301] send: stats
+2022-09-29 17:31:22,229 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:31:22,230 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:31:22,231 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:31:22,232 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:31:22,326 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:22,327 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:31:24,339 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:26,367 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:26,912 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:31:26,912 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:31:28,379 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:30,400 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:32,422 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:36,517 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:38,545 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:42,337 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:31:42,338 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:31:42,601 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:44,625 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:48,672 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:49,350 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:31:49,352 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:31:49,352 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:31:49,357 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:31:49,694 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:31:50,687 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:54,718 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:56,333 DEBUG   SenderThread:24936 [sender.py:send():301] send: stats
+2022-09-29 17:31:56,754 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:31:57,781 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:31:57,781 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:31:58,867 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:02,934 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:04,966 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:09,034 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:11,052 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:13,224 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:32:13,225 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:32:15,133 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:17,139 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:18,619 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:32:18,620 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:32:18,622 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:32:18,624 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:32:19,167 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:32:21,210 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:23,258 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:27,297 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:28,644 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:32:28,644 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:32:29,302 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:30,722 DEBUG   SenderThread:24936 [sender.py:send():301] send: stats
+2022-09-29 17:32:33,366 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:37,410 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:39,417 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:43,473 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:44,093 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:32:44,093 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:32:45,487 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:49,301 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:32:49,302 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:32:49,303 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:32:49,304 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:32:49,530 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:49,530 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:32:51,555 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:53,591 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:57,640 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:32:59,509 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:32:59,509 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:32:59,680 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:02,727 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:04,755 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:04,884 DEBUG   SenderThread:24936 [sender.py:send():301] send: stats
+2022-09-29 17:33:06,760 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:10,809 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:14,831 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:14,925 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:33:14,926 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:33:16,853 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:18,422 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:18,423 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:18,424 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:18,425 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:18,874 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:18,875 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:22,943 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:24,964 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:29,026 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:29,480 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:29,482 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:33:29,482 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:33:29,483 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:29,483 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:29,484 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:30,091 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:30,385 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:33:30,385 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:33:30,915 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:30,916 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:33:30,917 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:30,918 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:30,919 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:31,109 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:31,110 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:32,186 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:32,187 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:32,189 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:32,190 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:33,134 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:33,134 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:33,408 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:33,410 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:33,410 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:33,412 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:34,136 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:34,609 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:34,610 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:34,611 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:34,613 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:35,164 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:35,164 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:35,937 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:35,938 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:35,938 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:35,941 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:36,180 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:37,201 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:37,323 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:37,328 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:37,329 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:37,331 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:38,211 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:38,525 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:38,525 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:38,526 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:38,527 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:39,252 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:39,252 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:39,293 DEBUG   SenderThread:24936 [sender.py:send():301] send: stats
+2022-09-29 17:33:39,830 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:39,831 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:39,831 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:39,833 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:40,262 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:41,005 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:41,008 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:41,009 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:41,011 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:41,258 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:41,259 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:42,522 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:42,524 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:42,525 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:42,526 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:43,269 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:43,270 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:43,953 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:43,969 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:43,970 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:43,974 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:44,271 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:45,071 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:45,073 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:45,074 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:45,077 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:45,280 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:45,282 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:45,890 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:33:45,890 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:33:46,185 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:46,291 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:46,292 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:46,294 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:47,297 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:47,298 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:47,417 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:47,419 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:47,420 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:47,422 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:48,327 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:48,578 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:48,579 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:48,579 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:48,581 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:49,346 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:49,347 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:50,041 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:50,042 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:50,044 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:50,045 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:50,374 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:50,759 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:50,761 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:50,761 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:50,777 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:50,795 DEBUG   SenderThread:24936 [sender.py:send():301] send: config
+2022-09-29 17:33:51,230 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: log_artifact
+2022-09-29 17:33:51,231 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: log_artifact
+2022-09-29 17:33:51,258 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:51,366 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:51,368 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:51,368 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\media\table\conf_table_33_64d53b227faa1d9af28f.table.json
+2022-09-29 17:33:51,369 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\media\table
+2022-09-29 17:33:52,941 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: log_artifact
+2022-09-29 17:33:52,965 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:53,382 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:33:53,383 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\media\table\examples_34_91f6e347e7ecd02507aa.table.json
+2022-09-29 17:33:53,384 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\media\table
+2022-09-29 17:33:53,480 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-29 17:33:53,491 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: pause
+2022-09-29 17:33:53,491 INFO    HandlerThread:24936 [handler.py:handle_request_pause():696] stopping system metrics thread
+2022-09-29 17:33:54,079 INFO    Thread-25 :24936 [upload_job.py:push():97] Uploaded file C:\Users\bhatt\.cache\wandb\artifacts\obj\md5\e9\6383a6ec5d2784b12af160eab17b1e
+2022-09-29 17:33:55,910 INFO    SenderThread:24936 [sender.py:send_request_log_artifact():1206] logged artifact run-3dwpy5ky-conf_table - {'id': 'QXJ0aWZhY3Q6MjA4MjEwMTA5', 'digest': '6873f220f64c8ac68458cdcd9789f7ec', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5ODQwMzcw', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjA4MjA0OTYy', 'versionIndex': 0}}, 'version': 'latest'}
+2022-09-29 17:33:56,358 DEBUG   SenderThread:24936 [sender.py:send():301] send: files
+2022-09-29 17:33:56,358 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file media\table\conf_table_33_64d53b227faa1d9af28f.table.json with policy now
+2022-09-29 17:33:56,359 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:33:56,360 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:33:56,361 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:33:56,362 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: log_artifact
+2022-09-29 17:33:56,409 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\config.yaml
+2022-09-29 17:33:56,410 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:33:57,470 INFO    Thread-26 :24936 [upload_job.py:push():139] Uploaded file C:\Users\bhatt\AppData\Local\Temp\tmpsog8bquqwandb\4qzq1cr0-media/table/conf_table_33_64d53b227faa1d9af28f.table.json
+2022-09-29 17:33:58,844 INFO    Thread-28 :24936 [upload_job.py:push():97] Uploaded file C:\Users\bhatt\.cache\wandb\artifacts\obj\md5\a7\18e6139b8d4bb63745400727e0a9ee
+2022-09-29 17:34:00,598 INFO    SenderThread:24936 [sender.py:send_request_log_artifact():1206] logged artifact run-3dwpy5ky-examples - {'id': 'QXJ0aWZhY3Q6MjA4MjEwMTkw', 'digest': '46bca21cb949c7f4e6a861749e0bb5c2', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5ODQwMzcy', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjA4MjA1MDI2', 'versionIndex': 0}}, 'version': 'latest'}
+2022-09-29 17:34:00,599 DEBUG   SenderThread:24936 [sender.py:send():301] send: files
+2022-09-29 17:34:00,599 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file media\table\examples_34_91f6e347e7ecd02507aa.table.json with policy now
+2022-09-29 17:34:00,601 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:34:00,601 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:34:00,602 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:34:00,603 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:34:00,603 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:34:00,603 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:34:00,604 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:34:00,604 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:34:00,604 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:34:00,604 DEBUG   SenderThread:24936 [sender.py:send():301] send: metric
+2022-09-29 17:34:00,604 DEBUG   SenderThread:24936 [sender.py:send():301] send: history
+2022-09-29 17:34:00,605 DEBUG   SenderThread:24936 [sender.py:send():301] send: summary
+2022-09-29 17:34:00,606 INFO    SenderThread:24936 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-29 17:34:00,607 DEBUG   SenderThread:24936 [sender.py:send():301] send: stats
+2022-09-29 17:34:01,306 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:34:01,306 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:34:01,436 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\output.log
+2022-09-29 17:34:01,437 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\wandb-summary.json
+2022-09-29 17:34:01,800 INFO    Thread-29 :24936 [upload_job.py:push():139] Uploaded file C:\Users\bhatt\AppData\Local\Temp\tmpsog8bquqwandb\1dtclida-media/table/examples_34_91f6e347e7ecd02507aa.table.json
+2022-09-29 17:34:16,709 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:34:16,709 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:34:27,631 INFO    Thread-13 :24936 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\experimental_notebooks\wandb\run-20220929_172643-3dwpy5ky\files\config.yaml
+2022-09-29 17:34:32,148 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:34:32,149 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:34:47,558 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:34:47,558 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:35:02,962 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:35:02,962 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:35:18,376 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:35:18,377 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:35:33,771 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:35:33,772 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:35:49,170 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:35:49,170 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:36:04,634 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:36:04,635 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:36:20,073 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:36:20,074 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:36:35,497 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:36:35,498 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:36:50,923 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:36:50,924 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:37:06,281 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:37:06,281 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:37:21,656 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:37:21,656 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:37:37,023 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:37:37,024 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:37:52,427 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:37:52,427 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:38:07,800 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:38:07,801 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:38:23,215 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:38:23,215 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:38:38,610 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:38:38,610 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:38:53,991 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:38:53,992 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:39:09,401 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:39:09,402 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:39:24,791 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:39:24,792 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:39:40,411 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:39:40,412 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:39:55,828 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:39:55,828 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:40:11,231 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:40:11,232 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:40:26,659 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:40:26,659 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:40:42,069 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:40:42,070 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:40:57,472 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:40:57,473 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:41:12,875 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:41:12,876 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:41:28,264 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:41:28,264 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:41:43,659 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:41:43,660 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:41:59,103 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:41:59,103 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:42:14,513 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:42:14,514 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:42:29,909 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:42:29,909 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:42:45,331 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:42:45,332 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:43:00,729 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:43:00,730 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:43:16,178 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:43:16,178 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:43:31,584 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:43:31,585 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:43:47,019 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:43:47,020 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:44:02,403 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:44:02,404 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:44:17,825 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:44:17,825 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:44:33,224 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:44:33,225 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:44:48,619 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:44:48,620 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:45:04,019 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:45:04,019 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:45:19,414 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:45:19,414 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:45:34,817 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:45:34,817 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:45:50,230 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:45:50,231 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:46:05,718 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:46:05,718 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:46:21,105 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:46:21,105 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:46:36,547 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:46:36,548 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:46:52,014 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:46:52,015 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:47:07,422 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:47:07,422 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:47:22,811 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:47:22,811 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:47:38,215 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:47:38,215 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:47:53,629 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:47:53,630 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:48:09,048 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:48:09,048 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:48:24,443 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:48:24,444 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:48:39,872 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:48:39,874 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:48:55,326 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:48:55,327 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:49:10,751 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:49:10,752 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:49:26,154 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:49:26,154 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:49:41,565 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:49:41,575 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:49:57,034 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:49:57,034 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:50:12,430 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:50:12,430 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:50:27,843 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:50:27,844 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status
+2022-09-29 17:50:43,314 DEBUG   HandlerThread:24936 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-29 17:50:43,314 DEBUG   SenderThread:24936 [sender.py:send_request():315] send_request: stop_status

@@ -1,0 +1,17 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-09-29T11:56:46.883765",
+    "startedAt": "2022-09-29T11:56:43.966817",
+    "docker": null,
+    "gpu": "NVIDIA GeForce MX330",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "Anurag",
+    "username": "bhatt",
+    "executable": "c:\\Users\\bhatt\\anaconda3\\python.exe"
+}

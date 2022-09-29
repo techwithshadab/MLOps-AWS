@@ -1,0 +1,19 @@
+
+
+
+
+
+
+Epoch 0: 100%|█| 37/37 [00:24<00:00,  1.53it/s, loss=0.648, v_num=egvm, valid/loss_epoch=0.724, valid/acc=0.344, valid/
+
+
+
+
+
+
+
+
+
+Epoch 1:  92%|▉| 34/37 [00:23<00:02,  1.43it/s, loss=0.624, v_num=egvm, valid/loss_epoch=0.646, valid/acc=0.656, valid/
+
+

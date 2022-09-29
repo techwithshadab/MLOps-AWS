@@ -1,0 +1,70 @@
+2022-09-29 06:19:55,217 INFO    StreamThr :17552 [internal.py:wandb_internal():88] W&B internal server running at pid: 17552, started at: 2022-09-29 06:19:55.217158
+2022-09-29 06:19:55,221 DEBUG   HandlerThread:17552 [handler.py:handle_request():138] handle_request: status
+2022-09-29 06:19:55,225 DEBUG   SenderThread:17552 [sender.py:send_request():315] send_request: status
+2022-09-29 06:19:55,229 DEBUG   SenderThread:17552 [sender.py:send():301] send: header
+2022-09-29 06:19:55,229 DEBUG   SenderThread:17552 [sender.py:send():301] send: run
+2022-09-29 06:19:55,231 INFO    WriterThread:17552 [datastore.py:open_for_write():75] open: C:\Users\bhatt\OneDrive\Documents\MLOps\week_2_hydra_config\multirun\2022-09-29\06-19-41\0\wandb\run-20220929_061955-2s1ymjwe\run-2s1ymjwe.wandb
+2022-09-29 06:19:55,232 INFO    SenderThread:17552 [sender.py:_maybe_setup_resume():577] checking resume status for raviraja/MLOps Basics/2s1ymjwe
+2022-09-29 06:19:56,317 ERROR   SenderThread:17552 [internal_api.py:execute():202] 404 response executing GraphQL.
+2022-09-29 06:19:56,317 ERROR   SenderThread:17552 [internal_api.py:execute():203] {"errors":[{"message":"project not found","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2022-09-29 06:19:57,229 INFO    HandlerThread:17552 [handler.py:finish():807] shutting down handler
+2022-09-29 06:19:57,232 INFO    WriterThread:17552 [datastore.py:close():279] close: C:\Users\bhatt\OneDrive\Documents\MLOps\week_2_hydra_config\multirun\2022-09-29\06-19-41\0\wandb\run-20220929_061955-2s1ymjwe\run-2s1ymjwe.wandb
+2022-09-29 06:19:57,232 ERROR   StreamThr :17552 [internal.py:wandb_internal():163] Thread SenderThread:
+Traceback (most recent call last):
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\lib\retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 199, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\transport\requests.py", line 39, in execute
+    request.raise_for_status()
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\requests\models.py", line 953, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\apis\normalize.py", line 26, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 1460, in upsert_run
+    response = self.gql(
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\lib\retry.py", line 129, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\util.py", line 1002, in check_retry_fn
+    return fallback_retry_fn(e)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\util.py", line 949, in no_retry_auth
+    raise CommError("Permission denied, ask the project owner to grant you access")
+wandb.errors.CommError: Permission denied, ask the project owner to grant you access
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\internal\internal_util.py", line 50, in run
+    self._run()
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\internal\internal_util.py", line 101, in _run
+    self._process(record)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\internal\internal.py", line 308, in _process
+    self._sm.send(record)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\internal\sender.py", line 303, in send
+    send_handler(record)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\internal\sender.py", line 781, in send_run
+    self._init_run(run, config_value_dict)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\internal\sender.py", line 807, in _init_run
+    server_run, inserted, server_messages = self._api.upsert_run(
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\apis\normalize.py", line 62, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\apis\normalize.py", line 26, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 1460, in upsert_run
+    response = self.gql(
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\sdk\lib\retry.py", line 129, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\util.py", line 1002, in check_retry_fn
+    return fallback_retry_fn(e)
+  File "C:\Users\bhatt\anaconda3\lib\site-packages\wandb\util.py", line 949, in no_retry_auth
+    raise CommError("Permission denied, ask the project owner to grant you access")
+wandb.errors.CommError: Permission denied, ask the project owner to grant you access

@@ -1,0 +1,21 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-09-29T00:55:00.710477",
+    "startedAt": "2022-09-29T00:54:59.423716",
+    "docker": null,
+    "gpu": "NVIDIA GeForce MX330",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-m",
+        "training.max_epochs=1,2"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\bhatt\\OneDrive\\Documents\\MLOps\\week_2_hydra_config\\train.py",
+    "codePath": "..\\..\\..\\..\\train.py",
+    "host": "Anurag",
+    "username": "bhatt",
+    "executable": "C:\\Users\\bhatt\\anaconda3\\python.exe"
+}
