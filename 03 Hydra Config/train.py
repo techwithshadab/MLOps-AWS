@@ -64,7 +64,7 @@ def main(cfg):
         monitor="valid/loss", patience=3, verbose=True, mode="min"
     )
 
-    wandb_logger = WandbLogger(project="MLOPS AWS", entity="techwithshadab")
+    wandb_logger = WandbLogger(project=cfg.wandb.project, entity=cfg.wandb.entity)
     trainer = pl.Trainer(
         max_epochs=cfg.training.max_epochs,
         logger=wandb_logger,

@@ -1,0 +1,2 @@
+- training.max_epochs=2
+- processing.batch_size=32

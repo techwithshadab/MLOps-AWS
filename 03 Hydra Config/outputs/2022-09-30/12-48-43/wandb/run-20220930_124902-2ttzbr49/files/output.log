@@ -1,0 +1,31 @@
+
+Validation sanity check: 100%|███████████████████████████████████████████████████████████| 2/2 [00:02<00:00,  1.29s/it]
+  | Name                   | Type                          | Params
+-------------------------------------------------------------------------
+0 | bert                   | BertForSequenceClassification | 4.4 M
+1 | train_accuracy_metric  | Accuracy                      | 0
+2 | val_accuracy_metric    | Accuracy                      | 0
+3 | f1_metric              | F1                            | 0
+4 | precision_macro_metric | Precision                     | 0
+5 | recall_macro_metric    | Recall                        | 0
+6 | precision_micro_metric | Precision                     | 0
+7 | recall_micro_metric    | Recall                        | 0
+-------------------------------------------------------------------------
+4.4 M     Trainable params
+0         Non-trainable params
+4.4 M     Total params
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  95%|▉| 35/37 [01:08<00:03,  1.96s/it, loss=0.614, v_num=br49, valid/loss_epoch=0.698, valid/acc=0.508, valid/
+
+
+

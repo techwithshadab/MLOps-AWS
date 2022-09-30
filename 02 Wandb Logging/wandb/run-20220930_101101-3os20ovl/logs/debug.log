@@ -1,0 +1,38 @@
+2022-09-30 10:11:01,744 INFO    MainThread:4052 [wandb_setup.py:_flush():68] Configure stats pid to 4052
+2022-09-30 10:11:01,744 INFO    MainThread:4052 [wandb_setup.py:_flush():68] Loading settings from C:\Users\bhatt\.config\wandb\settings
+2022-09-30 10:11:01,744 INFO    MainThread:4052 [wandb_setup.py:_flush():68] Loading settings from c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\wandb\settings
+2022-09-30 10:11:01,745 INFO    MainThread:4052 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-09-30 10:11:01,745 INFO    MainThread:4052 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-09-30 10:11:01,746 INFO    MainThread:4052 [wandb_init.py:_log_setup():476] Logging user logs to c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\wandb\run-20220930_101101-3os20ovl\logs\debug.log
+2022-09-30 10:11:01,746 INFO    MainThread:4052 [wandb_init.py:_log_setup():477] Logging internal logs to c:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\02 Wandb Logging\wandb\run-20220930_101101-3os20ovl\logs\debug-internal.log
+2022-09-30 10:11:01,746 INFO    MainThread:4052 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000196635EB5E0>
+2022-09-30 10:11:01,747 INFO    MainThread:4052 [wandb_init.py:init():516] calling init triggers
+2022-09-30 10:11:01,747 INFO    MainThread:4052 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-09-30 10:11:01,747 INFO    MainThread:4052 [wandb_init.py:init():569] starting backend
+2022-09-30 10:11:01,747 INFO    MainThread:4052 [wandb_init.py:init():573] setting up manager
+2022-09-30 10:11:01,773 INFO    MainThread:4052 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn, using: spawn
+2022-09-30 10:11:01,792 INFO    MainThread:4052 [wandb_init.py:init():580] backend started and connected
+2022-09-30 10:11:01,855 INFO    MainThread:4052 [wandb_run.py:_label_probe_notebook():1098] probe notebook
+2022-09-30 10:11:01,857 INFO    MainThread:4052 [wandb_run.py:_label_probe_notebook():1108] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-09-30 10:11:01,857 INFO    MainThread:4052 [wandb_init.py:init():658] updated telemetry
+2022-09-30 10:11:02,028 INFO    MainThread:4052 [wandb_init.py:init():692] communicating run to backend with 30 second timeout
+2022-09-30 10:11:03,819 INFO    MainThread:4052 [wandb_run.py:_on_init():1974] communicating current version
+2022-09-30 10:11:04,262 INFO    MainThread:4052 [wandb_run.py:_on_init():1978] got version response 
+2022-09-30 10:11:04,263 INFO    MainThread:4052 [wandb_init.py:init():727] starting run threads in backend
+2022-09-30 10:11:09,425 INFO    MainThread:4052 [wandb_run.py:_console_start():1954] atexit reg
+2022-09-30 10:11:09,425 INFO    MainThread:4052 [wandb_run.py:_redirect():1812] redirect: SettingsConsole.WRAP_RAW
+2022-09-30 10:11:09,426 INFO    MainThread:4052 [wandb_run.py:_redirect():1877] Wrapping output streams.
+2022-09-30 10:11:09,426 INFO    MainThread:4052 [wandb_run.py:_redirect():1899] Redirects installed.
+2022-09-30 10:11:09,430 INFO    MainThread:4052 [wandb_init.py:init():764] run started, returning control to user process
+2022-09-30 10:11:09,435 INFO    MainThread:4052 [wandb_run.py:_config_callback():1145] config_cb None None {'model_name': 'google/bert_uncased_L-2_H-128_A-2', 'lr': 3e-05}
+2022-09-30 10:11:14,738 INFO    MainThread:4052 [wandb_run.py:_config_callback():1145] config_cb ('_wandb', 'visualize', 'conf') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_table'}], 'fields': []}]}]}}} None
+2022-09-30 10:16:56,442 INFO    MainThread:4052 [wandb_run.py:_config_callback():1145] config_cb ('_wandb', 'visualize', 'conf') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_table'}], 'fields': []}]}]}}} None
+2022-09-30 10:16:59,513 INFO    MainThread:4052 [wandb_init.py:_pause_backend():389] pausing backend
+2022-09-30 10:16:59,515 INFO    MainThread:4052 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-09-30 10:28:11,275 INFO    MainThread:4052 [wandb_init.py:_resume_backend():398] resuming backend
+2022-09-30 10:28:31,754 INFO    MainThread:4052 [wandb_run.py:_config_callback():1145] config_cb None None {'model_name': 'google/bert_uncased_L-2_H-128_A-2', 'lr': 3e-05}
+2022-09-30 10:28:34,186 INFO    MainThread:4052 [wandb_run.py:_config_callback():1145] config_cb ('_wandb', 'visualize', 'conf') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_table'}], 'fields': []}]}]}}} None
+2022-09-30 10:33:11,467 INFO    MainThread:4052 [wandb_run.py:_config_callback():1145] config_cb ('_wandb', 'visualize', 'conf') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_table'}], 'fields': []}]}]}}} None
+2022-09-30 10:33:14,629 INFO    MainThread:4052 [wandb_init.py:_pause_backend():389] pausing backend
+2022-09-30 10:33:14,631 INFO    MainThread:4052 [jupyter.py:save_ipynb():378] not saving jupyter notebook

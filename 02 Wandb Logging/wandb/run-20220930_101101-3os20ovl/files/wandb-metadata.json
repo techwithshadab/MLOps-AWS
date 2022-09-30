@@ -1,0 +1,23 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-09-30T04:41:05.320647",
+    "startedAt": "2022-09-30T04:41:01.737606",
+    "docker": null,
+    "gpu": "NVIDIA GeForce MX330",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/techwithshadab/MLOps-AWS.git",
+        "commit": "c349ee49664a21042eafc9c70d3b8a4ea3973294"
+    },
+    "email": "shadab.entrepreneur@outlook.com",
+    "root": "C:/Users/bhatt/OneDrive/Documents/New folder/MLOps-AWS",
+    "host": "Anurag",
+    "username": "bhatt",
+    "executable": "c:\\Users\\bhatt\\anaconda3\\python.exe"
+}

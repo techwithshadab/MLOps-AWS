@@ -1,0 +1,28 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-09-30T09:55:57.137577",
+    "startedAt": "2022-09-30T09:55:54.989374",
+    "docker": null,
+    "gpu": "NVIDIA GeForce MX330",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-m",
+        "training.max_epochs=1,2",
+        "processing.batch_size=32,64,128"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\bhatt\\OneDrive\\Documents\\New folder\\MLOps-AWS\\03 Hydra Config\\train.py",
+    "codePath": "03 Hydra Config\\train.py",
+    "git": {
+        "remote": "https://github.com/techwithshadab/MLOps-AWS.git",
+        "commit": "c349ee49664a21042eafc9c70d3b8a4ea3973294"
+    },
+    "email": "shadab.entrepreneur@outlook.com",
+    "root": "C:/Users/bhatt/OneDrive/Documents/New folder/MLOps-AWS",
+    "host": "Anurag",
+    "username": "bhatt",
+    "executable": "C:\\Users\\bhatt\\anaconda3\\python.exe"
+}

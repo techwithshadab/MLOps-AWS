@@ -1,0 +1,341 @@
+2022-09-30 12:49:02,520 INFO    StreamThr :5424 [internal.py:wandb_internal():88] W&B internal server running at pid: 5424, started at: 2022-09-30 12:49:02.518862
+2022-09-30 12:49:02,525 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: status
+2022-09-30 12:49:02,529 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: status
+2022-09-30 12:49:02,545 DEBUG   SenderThread:5424 [sender.py:send():301] send: header
+2022-09-30 12:49:02,545 INFO    WriterThread:5424 [datastore.py:open_for_write():75] open: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\run-2ttzbr49.wandb
+2022-09-30 12:49:02,890 DEBUG   SenderThread:5424 [sender.py:send():301] send: run
+2022-09-30 12:49:02,896 INFO    SenderThread:5424 [sender.py:_maybe_setup_resume():577] checking resume status for techwithshadab/MLOPS AWS/2ttzbr49
+2022-09-30 12:49:04,141 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: check_version
+2022-09-30 12:49:04,144 INFO    SenderThread:5424 [dir_watcher.py:__init__():216] watching files in: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files
+2022-09-30 12:49:04,144 INFO    SenderThread:5424 [sender.py:_start_run_threads():912] run started: 2ttzbr49 with start time 1664522342.512642
+2022-09-30 12:49:04,144 DEBUG   SenderThread:5424 [sender.py:send():301] send: summary
+2022-09-30 12:49:04,145 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-30 12:49:04,146 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: check_version
+2022-09-30 12:49:04,326 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: run_start
+2022-09-30 12:49:05,153 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\wandb-summary.json
+2022-09-30 12:49:05,344 DEBUG   HandlerThread:5424 [meta.py:__init__():34] meta init
+2022-09-30 12:49:05,345 DEBUG   HandlerThread:5424 [meta.py:__init__():49] meta init done
+2022-09-30 12:49:05,346 DEBUG   HandlerThread:5424 [meta.py:probe():215] probe
+2022-09-30 12:49:05,420 DEBUG   HandlerThread:5424 [meta.py:_setup_git():205] setup git
+2022-09-30 12:49:05,654 DEBUG   HandlerThread:5424 [meta.py:_setup_git():212] setup git done
+2022-09-30 12:49:05,654 DEBUG   HandlerThread:5424 [meta.py:_save_pip():53] save pip
+2022-09-30 12:49:05,656 DEBUG   HandlerThread:5424 [meta.py:_save_pip():67] save pip done
+2022-09-30 12:49:05,656 DEBUG   HandlerThread:5424 [meta.py:_save_conda():74] save conda
+2022-09-30 12:49:06,152 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\conda-environment.yaml
+2022-09-30 12:49:06,152 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\requirements.txt
+2022-09-30 12:49:13,188 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\media\table\conf_table_0_b70a65245c0690ab1a05.table.json
+2022-09-30 12:49:13,190 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\media\table
+2022-09-30 12:49:13,191 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\media
+2022-09-30 12:49:16,285 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\media\table\examples_1_256d87fa83ea5f9ba069.table.json
+2022-09-30 12:49:16,286 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\media\table
+2022-09-30 12:49:52,002 DEBUG   HandlerThread:5424 [meta.py:_save_conda():84] save conda done
+2022-09-30 12:49:52,002 DEBUG   HandlerThread:5424 [meta.py:probe():253] probe done
+2022-09-30 12:49:52,881 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-30 12:49:52,883 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: stop_status
+2022-09-30 12:49:52,908 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\wandb-metadata.json
+2022-09-30 12:49:52,910 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: log_artifact
+2022-09-30 12:49:52,912 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-30 12:49:52,917 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: log_artifact
+2022-09-30 12:49:52,988 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-30 12:49:53,001 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-30 12:49:53,008 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-30 12:49:53,012 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-30 12:49:53,394 DEBUG   SenderThread:5424 [sender.py:send():301] send: telemetry
+2022-09-30 12:49:53,395 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:49:53,396 DEBUG   SenderThread:5424 [sender.py:send():301] send: telemetry
+2022-09-30 12:49:53,397 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:49:53,397 WARNING SenderThread:5424 [sender.py:send_metric():1111] Seen metric with glob (shouldn't happen)
+2022-09-30 12:49:53,397 DEBUG   SenderThread:5424 [sender.py:send():301] send: config
+2022-09-30 12:49:53,406 DEBUG   SenderThread:5424 [sender.py:send():301] send: config
+2022-09-30 12:49:53,406 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: log_artifact
+2022-09-30 12:49:53,934 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:49:55,946 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:49:56,296 INFO    Thread-24 :5424 [upload_job.py:push():97] Uploaded file C:\Users\bhatt\.cache\wandb\artifacts\obj\md5\f8\f6287e55a3bdfd36439282c9e5653f
+2022-09-30 12:49:58,162 INFO    SenderThread:5424 [sender.py:send_request_log_artifact():1206] logged artifact run-2ttzbr49-conf_table - {'id': 'QXJ0aWZhY3Q6MjA5MTc4MzU4', 'digest': '0c612cfe15727cfdf915d8348606bcfe', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTAwNjMy', 'latestArtifact': None}, 'version': 'latest'}
+2022-09-30 12:49:58,162 DEBUG   SenderThread:5424 [sender.py:send():301] send: files
+2022-09-30 12:49:58,162 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file media\table\conf_table_0_b70a65245c0690ab1a05.table.json with policy now
+2022-09-30 12:49:58,166 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:49:58,167 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:49:58,167 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:49:58,168 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:49:58,169 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:49:58,169 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:49:58,170 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:49:58,170 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:49:58,171 DEBUG   SenderThread:5424 [sender.py:send():301] send: history
+2022-09-30 12:49:58,171 DEBUG   SenderThread:5424 [sender.py:send():301] send: summary
+2022-09-30 12:49:58,185 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-30 12:49:58,187 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: log_artifact
+2022-09-30 12:49:58,960 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\wandb-summary.json
+2022-09-30 12:49:59,386 INFO    Thread-25 :5424 [upload_job.py:push():139] Uploaded file C:\Users\bhatt\AppData\Local\Temp\tmpwwsq3953wandb\176720dj-media/table/conf_table_0_b70a65245c0690ab1a05.table.json
+2022-09-30 12:50:00,807 INFO    Thread-27 :5424 [upload_job.py:push():97] Uploaded file C:\Users\bhatt\.cache\wandb\artifacts\obj\md5\95\7b73a008153410a024355f1ad0f965
+2022-09-30 12:50:01,592 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-30 12:50:02,639 INFO    SenderThread:5424 [sender.py:send_request_log_artifact():1206] logged artifact run-2ttzbr49-examples - {'id': 'QXJ0aWZhY3Q6MjA5MTc4NDIx', 'digest': '34edbca0e96c8c8cdb4fcb294a9ed38b', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTAwNjM5', 'latestArtifact': None}, 'version': 'latest'}
+2022-09-30 12:50:02,641 DEBUG   SenderThread:5424 [sender.py:send():301] send: files
+2022-09-30 12:50:02,641 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file media\table\examples_1_256d87fa83ea5f9ba069.table.json with policy now
+2022-09-30 12:50:02,645 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:02,646 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:02,646 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:02,647 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:02,647 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:02,648 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:02,648 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:02,649 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:02,650 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:02,650 DEBUG   SenderThread:5424 [sender.py:send():301] send: history
+2022-09-30 12:50:02,651 DEBUG   SenderThread:5424 [sender.py:send():301] send: summary
+2022-09-30 12:50:02,653 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-30 12:50:02,655 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: stop_status
+2022-09-30 12:50:02,986 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\wandb-summary.json
+2022-09-30 12:50:03,606 DEBUG   SenderThread:5424 [sender.py:send():301] send: stats
+2022-09-30 12:50:03,609 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:03,610 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:03,611 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:03,611 DEBUG   SenderThread:5424 [sender.py:send():301] send: history
+2022-09-30 12:50:03,612 DEBUG   SenderThread:5424 [sender.py:send():301] send: summary
+2022-09-30 12:50:03,614 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-30 12:50:03,616 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: stop_status
+2022-09-30 12:50:03,916 INFO    Thread-28 :5424 [upload_job.py:push():139] Uploaded file C:\Users\bhatt\AppData\Local\Temp\tmpwwsq3953wandb\1lrrz2e6-media/table/examples_1_256d87fa83ea5f9ba069.table.json
+2022-09-30 12:50:04,027 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:50:04,029 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\wandb-summary.json
+2022-09-30 12:50:04,030 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\config.yaml
+2022-09-30 12:50:04,047 DEBUG   SenderThread:5424 [sender.py:send():301] send: files
+2022-09-30 12:50:04,048 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file wandb-metadata.json with policy now
+2022-09-30 12:50:04,051 DEBUG   SenderThread:5424 [sender.py:send():301] send: history
+2022-09-30 12:50:04,052 DEBUG   SenderThread:5424 [sender.py:send():301] send: summary
+2022-09-30 12:50:04,055 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-30 12:50:05,030 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\wandb-summary.json
+2022-09-30 12:50:05,217 INFO    Thread-29 :5424 [upload_job.py:push():139] Uploaded file C:\Users\bhatt\AppData\Local\Temp\tmpwwsq3953wandb\24ptf54q-wandb-metadata.json
+2022-09-30 12:50:06,034 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:50:08,046 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:50:09,404 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-30 12:50:09,404 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: stop_status
+2022-09-30 12:50:10,073 DEBUG   SenderThread:5424 [sender.py:send():301] send: stats
+2022-09-30 12:50:10,079 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:50:12,089 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:50:14,095 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:50:16,105 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:50:17,858 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-30 12:50:17,859 DEBUG   SenderThread:5424 [sender.py:send():301] send: history
+2022-09-30 12:50:17,861 DEBUG   SenderThread:5424 [sender.py:send():301] send: summary
+2022-09-30 12:50:17,862 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-30 12:50:18,113 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\wandb-summary.json
+2022-09-30 12:50:18,114 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:50:20,125 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:50:22,138 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:50:23,187 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-30 12:50:23,191 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:23,192 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:23,193 DEBUG   SenderThread:5424 [sender.py:send():301] send: history
+2022-09-30 12:50:23,194 DEBUG   SenderThread:5424 [sender.py:send():301] send: summary
+2022-09-30 12:50:23,196 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-30 12:50:24,191 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\wandb-summary.json
+2022-09-30 12:50:24,193 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:50:24,319 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-30 12:50:24,322 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:24,322 DEBUG   SenderThread:5424 [sender.py:send():301] send: history
+2022-09-30 12:50:24,325 DEBUG   SenderThread:5424 [sender.py:send():301] send: summary
+2022-09-30 12:50:24,329 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-30 12:50:24,827 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: stop_status
+2022-09-30 12:50:24,828 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: stop_status
+2022-09-30 12:50:25,196 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\wandb-summary.json
+2022-09-30 12:50:25,457 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-30 12:50:25,460 DEBUG   SenderThread:5424 [sender.py:send():301] send: history
+2022-09-30 12:50:25,461 DEBUG   SenderThread:5424 [sender.py:send():301] send: summary
+2022-09-30 12:50:25,464 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-30 12:50:26,204 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\wandb-summary.json
+2022-09-30 12:50:26,205 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:50:26,530 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-30 12:50:26,532 DEBUG   SenderThread:5424 [sender.py:send():301] send: history
+2022-09-30 12:50:26,533 DEBUG   SenderThread:5424 [sender.py:send():301] send: summary
+2022-09-30 12:50:26,535 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-30 12:50:27,212 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\wandb-summary.json
+2022-09-30 12:50:27,783 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-30 12:50:27,786 DEBUG   SenderThread:5424 [sender.py:send():301] send: history
+2022-09-30 12:50:27,787 DEBUG   SenderThread:5424 [sender.py:send():301] send: summary
+2022-09-30 12:50:27,790 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-30 12:50:28,215 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\wandb-summary.json
+2022-09-30 12:50:28,217 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:50:28,305 DEBUG   SenderThread:5424 [sender.py:send():301] send: config
+2022-09-30 12:50:28,763 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: log_artifact
+2022-09-30 12:50:28,763 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: log_artifact
+2022-09-30 12:50:28,798 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-30 12:50:29,230 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\media\table\conf_table_10_53e8eba8db34a3d4f73a.table.json
+2022-09-30 12:50:29,232 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\media\table
+2022-09-30 12:50:30,234 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:50:30,604 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: log_artifact
+2022-09-30 12:50:30,654 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-30 12:50:31,237 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: partial_history
+2022-09-30 12:50:31,248 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\media\table\examples_11_91f6e347e7ecd02507aa.table.json
+2022-09-30 12:50:31,251 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\media\table
+2022-09-30 12:50:31,251 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:34,923 INFO    Thread-31 :5424 [upload_job.py:push():97] Uploaded file C:\Users\bhatt\.cache\wandb\artifacts\obj\md5\15\daa7e5cbc369e726a4e0d51d7eb489
+2022-09-30 12:50:36,354 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:36,722 INFO    SenderThread:5424 [sender.py:send_request_log_artifact():1206] logged artifact run-2ttzbr49-conf_table - {'id': 'QXJ0aWZhY3Q6MjA5MTc4Nzc3', 'digest': 'ed5106caa273a5aec06b916b68b4e9e7', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTAwNjMy', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjA5MTc4MzU4', 'versionIndex': 0}}, 'version': 'latest'}
+2022-09-30 12:50:37,221 DEBUG   SenderThread:5424 [sender.py:send():301] send: files
+2022-09-30 12:50:37,221 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file media\table\conf_table_10_53e8eba8db34a3d4f73a.table.json with policy now
+2022-09-30 12:50:37,226 DEBUG   SenderThread:5424 [sender.py:send():301] send: history
+2022-09-30 12:50:37,227 DEBUG   SenderThread:5424 [sender.py:send():301] send: summary
+2022-09-30 12:50:37,230 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-30 12:50:37,232 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: log_artifact
+2022-09-30 12:50:37,293 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\wandb-summary.json
+2022-09-30 12:50:37,294 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\config.yaml
+2022-09-30 12:50:38,380 INFO    Thread-32 :5424 [upload_job.py:push():139] Uploaded file C:\Users\bhatt\AppData\Local\Temp\tmpwwsq3953wandb\bezcyn8m-media/table/conf_table_10_53e8eba8db34a3d4f73a.table.json
+2022-09-30 12:50:39,816 INFO    Thread-34 :5424 [upload_job.py:push():97] Uploaded file C:\Users\bhatt\.cache\wandb\artifacts\obj\md5\a7\18e6139b8d4bb63745400727e0a9ee
+2022-09-30 12:50:41,474 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:41,696 INFO    SenderThread:5424 [sender.py:send_request_log_artifact():1206] logged artifact run-2ttzbr49-examples - {'id': 'QXJ0aWZhY3Q6MjA5MTc4ODkw', 'digest': '46bca21cb949c7f4e6a861749e0bb5c2', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI5OTAwNjM5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjA5MTc4NDIx', 'versionIndex': 0}}, 'version': 'latest'}
+2022-09-30 12:50:41,697 DEBUG   SenderThread:5424 [sender.py:send():301] send: files
+2022-09-30 12:50:41,697 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file media\table\examples_11_91f6e347e7ecd02507aa.table.json with policy now
+2022-09-30 12:50:41,701 DEBUG   SenderThread:5424 [sender.py:send():301] send: history
+2022-09-30 12:50:41,702 DEBUG   SenderThread:5424 [sender.py:send():301] send: summary
+2022-09-30 12:50:41,704 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-30 12:50:41,706 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:41,707 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:41,709 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:41,709 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:41,710 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:41,710 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:41,710 DEBUG   SenderThread:5424 [sender.py:send():301] send: metric
+2022-09-30 12:50:41,711 DEBUG   SenderThread:5424 [sender.py:send():301] send: history
+2022-09-30 12:50:41,712 DEBUG   SenderThread:5424 [sender.py:send():301] send: summary
+2022-09-30 12:50:41,714 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-30 12:50:41,716 DEBUG   SenderThread:5424 [sender.py:send():301] send: telemetry
+2022-09-30 12:50:41,718 DEBUG   SenderThread:5424 [sender.py:send():301] send: exit
+2022-09-30 12:50:41,718 INFO    SenderThread:5424 [sender.py:send_exit():437] handling exit code: 0
+2022-09-30 12:50:41,719 INFO    SenderThread:5424 [sender.py:send_exit():439] handling runtime: 86
+2022-09-30 12:50:41,724 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-30 12:50:41,726 INFO    SenderThread:5424 [sender.py:send_exit():445] send defer
+2022-09-30 12:50:41,727 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:41,728 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:41,729 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:41,731 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: defer
+2022-09-30 12:50:41,731 INFO    HandlerThread:5424 [handler.py:handle_request_defer():161] handle defer: 0
+2022-09-30 12:50:41,737 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: defer
+2022-09-30 12:50:41,738 INFO    SenderThread:5424 [sender.py:send_request_defer():454] handle sender defer: 0
+2022-09-30 12:50:41,738 INFO    SenderThread:5424 [sender.py:transition_state():458] send defer: 1
+2022-09-30 12:50:41,739 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: defer
+2022-09-30 12:50:41,745 INFO    HandlerThread:5424 [handler.py:handle_request_defer():161] handle defer: 1
+2022-09-30 12:50:41,909 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: defer
+2022-09-30 12:50:41,910 INFO    SenderThread:5424 [sender.py:send_request_defer():454] handle sender defer: 1
+2022-09-30 12:50:41,912 INFO    SenderThread:5424 [sender.py:transition_state():458] send defer: 2
+2022-09-30 12:50:41,912 DEBUG   SenderThread:5424 [sender.py:send():301] send: stats
+2022-09-30 12:50:41,914 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: defer
+2022-09-30 12:50:41,915 INFO    HandlerThread:5424 [handler.py:handle_request_defer():161] handle defer: 2
+2022-09-30 12:50:41,916 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: defer
+2022-09-30 12:50:41,917 INFO    SenderThread:5424 [sender.py:send_request_defer():454] handle sender defer: 2
+2022-09-30 12:50:41,917 INFO    SenderThread:5424 [sender.py:transition_state():458] send defer: 3
+2022-09-30 12:50:41,918 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: defer
+2022-09-30 12:50:41,918 INFO    HandlerThread:5424 [handler.py:handle_request_defer():161] handle defer: 3
+2022-09-30 12:50:41,919 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: defer
+2022-09-30 12:50:41,920 INFO    SenderThread:5424 [sender.py:send_request_defer():454] handle sender defer: 3
+2022-09-30 12:50:41,920 INFO    SenderThread:5424 [sender.py:transition_state():458] send defer: 4
+2022-09-30 12:50:41,922 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: defer
+2022-09-30 12:50:41,922 INFO    HandlerThread:5424 [handler.py:handle_request_defer():161] handle defer: 4
+2022-09-30 12:50:41,924 DEBUG   SenderThread:5424 [sender.py:send():301] send: summary
+2022-09-30 12:50:41,927 INFO    SenderThread:5424 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-09-30 12:50:41,928 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: defer
+2022-09-30 12:50:41,928 INFO    SenderThread:5424 [sender.py:send_request_defer():454] handle sender defer: 4
+2022-09-30 12:50:41,928 INFO    SenderThread:5424 [sender.py:transition_state():458] send defer: 5
+2022-09-30 12:50:41,930 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: defer
+2022-09-30 12:50:41,930 INFO    HandlerThread:5424 [handler.py:handle_request_defer():161] handle defer: 5
+2022-09-30 12:50:41,930 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: defer
+2022-09-30 12:50:41,931 INFO    SenderThread:5424 [sender.py:send_request_defer():454] handle sender defer: 5
+2022-09-30 12:50:41,966 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:42,346 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\wandb-summary.json
+2022-09-30 12:50:42,508 INFO    SenderThread:5424 [sender.py:transition_state():458] send defer: 6
+2022-09-30 12:50:42,535 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:42,536 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: defer
+2022-09-30 12:50:42,536 INFO    HandlerThread:5424 [handler.py:handle_request_defer():161] handle defer: 6
+2022-09-30 12:50:42,537 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: defer
+2022-09-30 12:50:42,537 INFO    SenderThread:5424 [sender.py:send_request_defer():454] handle sender defer: 6
+2022-09-30 12:50:42,795 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:43,100 INFO    Thread-35 :5424 [upload_job.py:push():139] Uploaded file C:\Users\bhatt\AppData\Local\Temp\tmpwwsq3953wandb\1lzfbelv-media/table/examples_11_91f6e347e7ecd02507aa.table.json
+2022-09-30 12:50:43,369 INFO    Thread-17 :5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\config.yaml
+2022-09-30 12:50:43,880 INFO    SenderThread:5424 [sender.py:transition_state():458] send defer: 7
+2022-09-30 12:50:43,881 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:43,883 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: defer
+2022-09-30 12:50:43,883 INFO    HandlerThread:5424 [handler.py:handle_request_defer():161] handle defer: 7
+2022-09-30 12:50:43,884 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: defer
+2022-09-30 12:50:43,885 INFO    SenderThread:5424 [sender.py:send_request_defer():454] handle sender defer: 7
+2022-09-30 12:50:43,885 INFO    SenderThread:5424 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-09-30 12:50:44,010 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:44,376 INFO    SenderThread:5424 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:50:44,380 INFO    SenderThread:5424 [dir_watcher.py:finish():392] scan: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files
+2022-09-30 12:50:44,381 INFO    SenderThread:5424 [dir_watcher.py:finish():406] scan save: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\conda-environment.yaml conda-environment.yaml
+2022-09-30 12:50:44,382 INFO    SenderThread:5424 [dir_watcher.py:finish():406] scan save: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\config.yaml config.yaml
+2022-09-30 12:50:44,384 INFO    SenderThread:5424 [dir_watcher.py:finish():406] scan save: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log output.log
+2022-09-30 12:50:44,386 INFO    SenderThread:5424 [dir_watcher.py:finish():406] scan save: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\requirements.txt requirements.txt
+2022-09-30 12:50:44,387 INFO    SenderThread:5424 [dir_watcher.py:finish():406] scan save: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\wandb-metadata.json wandb-metadata.json
+2022-09-30 12:50:44,388 INFO    SenderThread:5424 [dir_watcher.py:finish():406] scan save: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\wandb-summary.json wandb-summary.json
+2022-09-30 12:50:44,390 INFO    SenderThread:5424 [dir_watcher.py:finish():406] scan save: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\media\table\conf_table_0_b70a65245c0690ab1a05.table.json media\table\conf_table_0_b70a65245c0690ab1a05.table.json
+2022-09-30 12:50:44,391 INFO    SenderThread:5424 [dir_watcher.py:finish():406] scan save: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\media\table\conf_table_10_53e8eba8db34a3d4f73a.table.json media\table\conf_table_10_53e8eba8db34a3d4f73a.table.json
+2022-09-30 12:50:44,392 INFO    SenderThread:5424 [dir_watcher.py:finish():406] scan save: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\media\table\examples_11_91f6e347e7ecd02507aa.table.json media\table\examples_11_91f6e347e7ecd02507aa.table.json
+2022-09-30 12:50:44,393 INFO    SenderThread:5424 [dir_watcher.py:finish():406] scan save: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\media\table\examples_1_256d87fa83ea5f9ba069.table.json media\table\examples_1_256d87fa83ea5f9ba069.table.json
+2022-09-30 12:50:44,398 INFO    SenderThread:5424 [sender.py:transition_state():458] send defer: 8
+2022-09-30 12:50:44,401 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:44,416 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: defer
+2022-09-30 12:50:44,416 INFO    HandlerThread:5424 [handler.py:handle_request_defer():161] handle defer: 8
+2022-09-30 12:50:44,423 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: defer
+2022-09-30 12:50:44,425 INFO    SenderThread:5424 [sender.py:send_request_defer():454] handle sender defer: 8
+2022-09-30 12:50:44,425 INFO    SenderThread:5424 [file_pusher.py:finish():168] shutting down file pusher
+2022-09-30 12:50:44,538 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:44,539 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:44,656 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:44,657 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:44,766 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:44,766 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:44,876 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:44,877 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:44,994 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:45,000 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:45,119 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:45,121 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:45,232 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:45,233 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:45,350 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:45,351 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:45,495 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:45,496 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:45,610 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:45,611 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:45,667 INFO    Thread-37 :5424 [upload_job.py:push():139] Uploaded file C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\output.log
+2022-09-30 12:50:45,711 INFO    Thread-39 :5424 [upload_job.py:push():139] Uploaded file C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\wandb-summary.json
+2022-09-30 12:50:45,730 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:45,731 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:45,781 INFO    Thread-36 :5424 [upload_job.py:push():139] Uploaded file C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\config.yaml
+2022-09-30 12:50:45,813 INFO    Thread-38 :5424 [upload_job.py:push():139] Uploaded file C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\files\requirements.txt
+2022-09-30 12:50:45,855 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:45,857 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:45,978 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:45,978 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:46,016 INFO    Thread-16 :5424 [sender.py:transition_state():458] send defer: 9
+2022-09-30 12:50:46,018 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: defer
+2022-09-30 12:50:46,018 INFO    HandlerThread:5424 [handler.py:handle_request_defer():161] handle defer: 9
+2022-09-30 12:50:46,020 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: defer
+2022-09-30 12:50:46,020 INFO    SenderThread:5424 [sender.py:send_request_defer():454] handle sender defer: 9
+2022-09-30 12:50:46,088 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:46,596 INFO    SenderThread:5424 [sender.py:transition_state():458] send defer: 10
+2022-09-30 12:50:46,597 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:46,599 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: defer
+2022-09-30 12:50:46,599 INFO    HandlerThread:5424 [handler.py:handle_request_defer():161] handle defer: 10
+2022-09-30 12:50:46,600 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: defer
+2022-09-30 12:50:46,601 INFO    SenderThread:5424 [sender.py:send_request_defer():454] handle sender defer: 10
+2022-09-30 12:50:46,603 INFO    SenderThread:5424 [sender.py:transition_state():458] send defer: 11
+2022-09-30 12:50:46,604 DEBUG   SenderThread:5424 [sender.py:send():301] send: final
+2022-09-30 12:50:46,605 DEBUG   SenderThread:5424 [sender.py:send():301] send: footer
+2022-09-30 12:50:46,606 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: defer
+2022-09-30 12:50:46,606 INFO    HandlerThread:5424 [handler.py:handle_request_defer():161] handle defer: 11
+2022-09-30 12:50:46,607 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: defer
+2022-09-30 12:50:46,607 INFO    SenderThread:5424 [sender.py:send_request_defer():454] handle sender defer: 11
+2022-09-30 12:50:46,708 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: poll_exit
+2022-09-30 12:50:46,710 DEBUG   SenderThread:5424 [sender.py:send_request():315] send_request: poll_exit
+2022-09-30 12:50:46,711 INFO    SenderThread:5424 [file_pusher.py:join():173] waiting for file pusher
+2022-09-30 12:50:47,246 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: sampled_history
+2022-09-30 12:50:47,252 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: get_summary
+2022-09-30 12:50:47,258 DEBUG   HandlerThread:5424 [handler.py:handle_request():138] handle_request: shutdown
+2022-09-30 12:50:47,259 INFO    HandlerThread:5424 [handler.py:finish():807] shutting down handler
+2022-09-30 12:50:47,608 INFO    WriterThread:5424 [datastore.py:close():279] close: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\03 Hydra Config\outputs\2022-09-30\12-48-43\wandb\run-20220930_124902-2ttzbr49\run-2ttzbr49.wandb
+2022-09-30 12:50:48,124 INFO    SenderThread:5424 [sender.py:finish():1315] shutting down sender
+2022-09-30 12:50:48,124 INFO    SenderThread:5424 [file_pusher.py:finish():168] shutting down file pusher
+2022-09-30 12:50:48,125 INFO    SenderThread:5424 [file_pusher.py:join():173] waiting for file pusher
+2022-09-30 12:50:49,268 INFO    MainThread:5424 [internal.py:handle_exit():78] Internal process exited
