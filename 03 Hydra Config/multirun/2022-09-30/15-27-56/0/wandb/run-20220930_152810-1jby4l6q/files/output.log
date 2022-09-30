@@ -1,0 +1,27 @@
+  | Name                   | Type                          | Params
+-------------------------------------------------------------------------
+0 | bert                   | BertForSequenceClassification | 4.4 M
+1 | train_accuracy_metric  | Accuracy                      | 0
+2 | val_accuracy_metric    | Accuracy                      | 0
+3 | f1_metric              | F1                            | 0
+4 | precision_macro_metric | Precision                     | 0
+5 | recall_macro_metric    | Recall                        | 0
+6 | precision_micro_metric | Precision                     | 0
+7 | recall_micro_metric    | Recall                        | 0
+-------------------------------------------------------------------------
+4.4 M     Trainable params
+0         Non-trainable params
+4.4 M     Total params
+17.545    Total estimated model params size (MB)
+/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/pytorch_lightning/utilities/distributed.py:68: UserWarning: The dataloader, val dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 16 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  warnings.warn(*args, **kwargs)
+Validation sanity check: 100%|█████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:00<00:00,  3.31it/s]
+/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/pytorch_lightning/utilities/distributed.py:68: UserWarning: The dataloader, train dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 16 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+Epoch 0: 100%|█| 37/37 [00:20<00:00,  1.78it/s, loss=0.615, v_num=4l6q, valid/loss_epoch=0.661, valid/acc=0.648, valid/precision_macro=0.324, valid/recal
+
+
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00,  3.98it/s]

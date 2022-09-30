@@ -1,0 +1,21 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-09-30T07:25:10.870695",
+    "startedAt": "2022-09-30T07:25:07.780027",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/techwithshadab/MLOps-AWS.git",
+        "commit": "c349ee49664a21042eafc9c70d3b8a4ea3973294"
+    },
+    "email": "madihaij@gmail.com",
+    "root": "/Users/madihaijaz/MLOps-AWS-1",
+    "host": "madihas-mbp",
+    "username": "madihaijaz",
+    "executable": "/Users/madihaijaz/opt/anaconda3/bin/python"
+}

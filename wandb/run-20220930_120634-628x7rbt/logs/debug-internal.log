@@ -1,0 +1,70 @@
+2022-09-30 12:06:34,452 INFO    StreamThr :65605 [internal.py:wandb_internal():88] W&B internal server running at pid: 65605, started at: 2022-09-30 12:06:34.450448
+2022-09-30 12:06:34,454 DEBUG   HandlerThread:65605 [handler.py:handle_request():138] handle_request: status
+2022-09-30 12:06:34,456 DEBUG   SenderThread:65605 [sender.py:send_request():315] send_request: status
+2022-09-30 12:06:34,458 DEBUG   SenderThread:65605 [sender.py:send():301] send: header
+2022-09-30 12:06:34,458 INFO    WriterThread:65605 [datastore.py:open_for_write():75] open: /Users/madihaijaz/MLOps-AWS-1/wandb/run-20220930_120634-628x7rbt/run-628x7rbt.wandb
+2022-09-30 12:06:34,476 DEBUG   SenderThread:65605 [sender.py:send():301] send: run
+2022-09-30 12:06:34,478 INFO    SenderThread:65605 [sender.py:_maybe_setup_resume():577] checking resume status for raviraja/MLOps Basics/628x7rbt
+2022-09-30 12:06:36,353 ERROR   SenderThread:65605 [internal_api.py:execute():202] 404 response executing GraphQL.
+2022-09-30 12:06:36,353 ERROR   SenderThread:65605 [internal_api.py:execute():203] {"errors":[{"message":"project not found","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2022-09-30 12:06:36,477 INFO    HandlerThread:65605 [handler.py:finish():807] shutting down handler
+2022-09-30 12:06:36,488 INFO    WriterThread:65605 [datastore.py:close():279] close: /Users/madihaijaz/MLOps-AWS-1/wandb/run-20220930_120634-628x7rbt/run-628x7rbt.wandb
+2022-09-30 12:06:36,488 ERROR   StreamThr :65605 [internal.py:wandb_internal():163] Thread SenderThread:
+Traceback (most recent call last):
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 199, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/requests/models.py", line 960, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/apis/normalize.py", line 26, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 1460, in upsert_run
+    response = self.gql(
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 129, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/util.py", line 1002, in check_retry_fn
+    return fallback_retry_fn(e)
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/util.py", line 949, in no_retry_auth
+    raise CommError("Permission denied, ask the project owner to grant you access")
+wandb.errors.CommError: Permission denied, ask the project owner to grant you access
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_util.py", line 50, in run
+    self._run()
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_util.py", line 101, in _run
+    self._process(record)
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal.py", line 308, in _process
+    self._sm.send(record)
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 303, in send
+    send_handler(record)
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 781, in send_run
+    self._init_run(run, config_value_dict)
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 807, in _init_run
+    server_run, inserted, server_messages = self._api.upsert_run(
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/apis/normalize.py", line 62, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/apis/normalize.py", line 26, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 1460, in upsert_run
+    response = self.gql(
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 129, in __call__
+    retry_timedelta_triggered = check_retry_fn(e)
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/util.py", line 1002, in check_retry_fn
+    return fallback_retry_fn(e)
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/util.py", line 949, in no_retry_auth
+    raise CommError("Permission denied, ask the project owner to grant you access")
+wandb.errors.CommError: Permission denied, ask the project owner to grant you access

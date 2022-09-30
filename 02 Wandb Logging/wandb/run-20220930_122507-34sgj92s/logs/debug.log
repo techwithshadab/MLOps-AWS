@@ -1,0 +1,51 @@
+2022-09-30 12:25:07,783 INFO    MainThread:61241 [wandb_setup.py:_flush():68] Configure stats pid to 61241
+2022-09-30 12:25:07,783 INFO    MainThread:61241 [wandb_setup.py:_flush():68] Loading settings from /Users/madihaijaz/.config/wandb/settings
+2022-09-30 12:25:07,783 INFO    MainThread:61241 [wandb_setup.py:_flush():68] Loading settings from /Users/madihaijaz/MLOps-AWS-1/02 Wandb Logging/wandb/settings
+2022-09-30 12:25:07,783 INFO    MainThread:61241 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-09-30 12:25:07,783 INFO    MainThread:61241 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-09-30 12:25:07,783 ERROR   MainThread:61241 [wandb_setup.py:_flush():68] error
+Traceback (most recent call last):
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1073, in init
+    wi.setup(kwargs)
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 274, in setup
+    wandb_login._login(
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_login.py", line 298, in _login
+    wlogin.prompt_api_key()
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_login.py", line 221, in prompt_api_key
+    key, status = self._prompt_api_key()
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_login.py", line 201, in _prompt_api_key
+    key = apikey.prompt_api_key(
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/apikey.py", line 134, in prompt_api_key
+    key = input_callback(api_ask).strip()
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/click/termui.py", line 166, in prompt
+    value = prompt_func(prompt)
+  File "/Users/madihaijaz/opt/anaconda3/lib/python3.9/site-packages/click/termui.py", line 149, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+2022-09-30 12:25:07,786 INFO    MainThread:61241 [wandb_init.py:_log_setup():476] Logging user logs to /Users/madihaijaz/MLOps-AWS-1/02 Wandb Logging/wandb/run-20220930_122507-34sgj92s/logs/debug.log
+2022-09-30 12:25:07,786 INFO    MainThread:61241 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/madihaijaz/MLOps-AWS-1/02 Wandb Logging/wandb/run-20220930_122507-34sgj92s/logs/debug-internal.log
+2022-09-30 12:25:07,786 INFO    MainThread:61241 [wandb_init.py:_jupyter_setup():426] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fbef23e1d90>
+2022-09-30 12:25:07,786 INFO    MainThread:61241 [wandb_init.py:init():516] calling init triggers
+2022-09-30 12:25:07,786 INFO    MainThread:61241 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-09-30 12:25:07,786 INFO    MainThread:61241 [wandb_init.py:init():569] starting backend
+2022-09-30 12:25:07,787 INFO    MainThread:61241 [wandb_init.py:init():573] setting up manager
+2022-09-30 12:25:07,790 INFO    MainThread:61241 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-09-30 12:25:07,795 INFO    MainThread:61241 [wandb_init.py:init():580] backend started and connected
+2022-09-30 12:25:07,814 INFO    MainThread:61241 [wandb_run.py:_label_probe_notebook():1098] probe notebook
+2022-09-30 12:25:07,819 INFO    MainThread:61241 [wandb_run.py:_label_probe_notebook():1108] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-09-30 12:25:07,819 INFO    MainThread:61241 [wandb_init.py:init():658] updated telemetry
+2022-09-30 12:25:07,856 INFO    MainThread:61241 [wandb_init.py:init():692] communicating run to backend with 30 second timeout
+2022-09-30 12:25:09,917 INFO    MainThread:61241 [wandb_run.py:_on_init():1974] communicating current version
+2022-09-30 12:25:10,708 INFO    MainThread:61241 [wandb_run.py:_on_init():1978] got version response 
+2022-09-30 12:25:10,708 INFO    MainThread:61241 [wandb_init.py:init():727] starting run threads in backend
+2022-09-30 12:25:15,876 INFO    MainThread:61241 [wandb_run.py:_console_start():1954] atexit reg
+2022-09-30 12:25:15,876 INFO    MainThread:61241 [wandb_run.py:_redirect():1812] redirect: SettingsConsole.WRAP_RAW
+2022-09-30 12:25:15,877 INFO    MainThread:61241 [wandb_run.py:_redirect():1877] Wrapping output streams.
+2022-09-30 12:25:15,877 INFO    MainThread:61241 [wandb_run.py:_redirect():1899] Redirects installed.
+2022-09-30 12:25:15,877 INFO    MainThread:61241 [wandb_init.py:init():764] run started, returning control to user process
+2022-09-30 12:25:15,878 INFO    MainThread:61241 [wandb_run.py:_config_callback():1145] config_cb None None {'model_name': 'google/bert_uncased_L-2_H-128_A-2', 'lr': 3e-05}
+2022-09-30 12:25:16,737 INFO    MainThread:61241 [wandb_run.py:_config_callback():1145] config_cb ('_wandb', 'visualize', 'conf') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_table'}], 'fields': []}]}]}}} None
+2022-09-30 12:27:00,347 INFO    MainThread:61241 [wandb_run.py:_config_callback():1145] config_cb ('_wandb', 'visualize', 'conf') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_table'}], 'fields': []}]}]}}} None
+2022-09-30 12:27:02,138 INFO    MainThread:61241 [wandb_init.py:_pause_backend():389] pausing backend
+2022-09-30 12:27:02,138 INFO    MainThread:61241 [jupyter.py:save_ipynb():378] not saving jupyter notebook
