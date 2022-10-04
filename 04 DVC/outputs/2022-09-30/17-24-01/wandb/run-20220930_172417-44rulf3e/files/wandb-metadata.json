@@ -1,0 +1,22 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-09-30T12:24:20.182874",
+    "startedAt": "2022-09-30T12:24:17.313822",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/madihaijaz/MLOps-AWS-1/04 DVC/train.py",
+    "codePath": "04 DVC/train.py",
+    "git": {
+        "remote": "https://github.com/madihaijaz/MLOps-AWS-2.git",
+        "commit": "59f6fe9539d2574e900ddbc6384cb125e92c35ef"
+    },
+    "email": "madihaij@gmail.com",
+    "root": "/Users/madihaijaz/MLOps-AWS-1",
+    "host": "Madihas-MacBook-Pro.local",
+    "username": "madihaijaz",
+    "executable": "/Users/madihaijaz/opt/anaconda3/bin/python"
+}
