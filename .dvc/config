@@ -1,4 +1,6 @@
 [core]
-    remote = storage
+    remote = awsstorage
 ['remote "storage"']
     url = gdrive://1GtysWyvQxpTczWMccfnQ5etzhU3MsHLc
+['remote "awsstorage"']
+    url = s3://mlops-aws
