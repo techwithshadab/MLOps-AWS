@@ -11,7 +11,7 @@ jobs:
           echo "Workflow is running on the branch ${{github.ref}} event"
       - name: Check out the repository
         uses: actions/checkout@v1.1
-      - name: Checking out repository
+      - name: Information after Checking 
         run: |
           echo "The #{{github.repository}} has been closed to the runner."
           echo "The job is now running on a ${{runner.os}} server hosted by GitHub."  
