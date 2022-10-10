@@ -2,6 +2,6 @@ version: "3"
 services:
     prediction_api:
         build: .
-        container_name: "inference_container"
+        container_name: "inference_container1"
         ports:
             - "8000:8000"

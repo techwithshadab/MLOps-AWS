@@ -1,0 +1,18 @@
+name: Github Actions Basic FLow
+on: [push]
+jobs:
+  Basic-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Basic Information
+        run: |
+          echo "The job was automatically triggered by a ${{github.event_name}} event"
+          echo "The job is now running on a ${{runner.os}} server hosted by GitHub."
+          echo "Workflow is running on the branch ${{github.ref}} event"
+      - name: Check out the repository
+        uses: actions/checkout@v1.1
+      - name: Checking out repository
+        run: |
+          echo "The #{{github.repository}} has been closed to the runner."
+          echo "The job is now running on a ${{runner.os}} server hosted by GitHub."  
+
