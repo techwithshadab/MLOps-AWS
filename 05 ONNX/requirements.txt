@@ -9,3 +9,4 @@ seaborn
 hydra-core
 omegaconf
 hydra_colorlog
+onnxruntime

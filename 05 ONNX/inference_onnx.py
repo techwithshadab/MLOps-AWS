@@ -18,8 +18,8 @@ class ColaONNXPredictor:
         processed = self.processor.tokenize_data(inference_sample)
 
         ort_inputs = {
-            "input_ids": np.expand_dims(processed["input_ids"], axis=0),
-            "attention_mask": np.expand_dims(processed["attention_mask"], axis=0),
+            "input_ids": np.expand_dims(processed["input_ids"], axis=0).astype(np.int64),
+            "attention_mask": np.expand_dims(processed["attention_mask"], axis=0).astype(np.int64),
         }
         ort_outs = self.ort_session.run(None, ort_inputs)
         scores = softmax(ort_outs[0])[0]
