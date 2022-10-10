@@ -10,3 +10,4 @@ hydra-core
 omegaconf
 hydra_colorlog
 dvc
+dvc[s3]
