@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./08 ECR
+        working-directory: ./09 Serverless
     steps:
       - name: Checking out the repository
         uses: actions/checkout@v2

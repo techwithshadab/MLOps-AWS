@@ -1,0 +1,4 @@
+[2022-10-12 18:06:58,977][__main__][INFO] - Loading pre-trained model from: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\09 Serverless/models/best-checkpoint.ckpt
+[2022-10-12 18:07:12,107][datasets.builder][WARNING] - Reusing dataset glue (C:\Users\bhatt\.cache\huggingface\datasets\glue\cola\1.0.0\dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+[2022-10-12 18:07:14,728][__main__][INFO] - Converting the model into ONNX format
+[2022-10-12 18:07:16,968][__main__][INFO] - Model converted successfully. ONNX format model is at: C:\Users\bhatt\OneDrive\Documents\New folder\MLOps-AWS\09 Serverless/models/model.onnx
