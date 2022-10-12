@@ -11,3 +11,6 @@ omegaconf
 hydra_colorlog
 fastapi
 uvicorn
+dvc
+dvc[s3]
+onnxruntime

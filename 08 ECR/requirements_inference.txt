@@ -9,8 +9,8 @@ seaborn
 hydra-core
 omegaconf
 hydra_colorlog
+onnxruntime
 fastapi
 uvicorn
 dvc
 dvc[s3]
-onnxruntime
