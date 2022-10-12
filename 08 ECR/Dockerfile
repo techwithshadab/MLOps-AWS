@@ -1,7 +1,8 @@
 FROM huggingface/transformers-pytorch-cpu:latest
-
+USER root
 COPY ./ /app
 WORKDIR /app
+RUN chmod 777 /app
 
 ARG AWS_ACCESS_KEY_ID
 ARG AWS_SECRET_ACCESS_KEY
