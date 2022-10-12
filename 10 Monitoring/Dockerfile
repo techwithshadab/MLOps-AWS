@@ -21,7 +21,7 @@ ENV LANG=C.UTF-8
 RUN pip install "dvc[s3]"
 # configuring remote server in dvc
 RUN dvc init --no-scm
-RUN dvc remote add -d model-store s3://models-dvc/trained_models/
+RUN dvc remote add -d model-store s3://mlops-aws/
 
 # pulling the trained model
 RUN dvc pull dvcfiles/trained_model.dvc
