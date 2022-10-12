@@ -21,7 +21,7 @@ RUN pip install -r requirements_inference.txt
 RUN dvc init --no-scm
 
 # configuring remote server in dvc
-RUN dvc remote add -d model-store s3://mlops-aws/
+RUN dvc remote add -d awsstorage s3://mlops-aws/
 RUN cat .dvc/config
 
 # pulling the trained model
