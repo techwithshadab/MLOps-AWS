@@ -9,5 +9,5 @@ seaborn
 hydra-core
 omegaconf
 hydra_colorlog
-onnxruntime
-dvc[s3] #for aws
+fastapi
+uvicorn
