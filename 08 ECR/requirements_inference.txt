@@ -8,3 +8,4 @@ onnxruntime
 fastapi
 uvicorn
 dvc
+dvc[s3]

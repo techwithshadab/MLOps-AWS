@@ -13,15 +13,16 @@ ENV AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
 
 
 # install requirements
-RUN pip install "dvc[s3]"
-RUN pip install -r requirements_inference.txt
+# RUN pip install "dvc[s3]"
+RUN pip install -r requirements_inference.txt 
 
 # initialise dvc
 RUN dvc init --no-scm
+
 # configuring remote server in dvc
 RUN dvc remote add -d model-store s3://mlops-aws/
-
 RUN cat .dvc/config
+
 # pulling the trained model
 RUN dvc pull dvcfiles/trained_model.dvc
 
@@ -31,3 +32,5 @@ ENV LANG=C.UTF-8
 # running the application
 EXPOSE 8000
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+
+
