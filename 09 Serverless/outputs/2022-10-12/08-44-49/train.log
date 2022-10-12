@@ -1,0 +1,17 @@
+[2022-10-12 08:44:49,279][__main__][INFO] - model:
+  name: google/bert_uncased_L-2_H-128_A-2
+  tokenizer: google/bert_uncased_L-2_H-128_A-2
+processing:
+  batch_size: 64
+  max_length: 128
+training:
+  max_epochs: 1
+  log_every_n_steps: 10
+  deterministic: true
+  limit_train_batches: 0.25
+  limit_val_batches: 0.25
+
+[2022-10-12 08:44:49,286][__main__][INFO] - Using the model: google/bert_uncased_L-2_H-128_A-2
+[2022-10-12 08:44:49,287][__main__][INFO] - Using the tokenizer: google/bert_uncased_L-2_H-128_A-2
+[2022-10-12 08:44:58,130][datasets.builder][WARNING] - Reusing dataset glue (C:\Users\bhatt\.cache\huggingface\datasets\glue\cola\1.0.0\dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+[2022-10-12 08:44:58,168][datasets.fingerprint][WARNING] - Parameter 'function'=<bound method DataModule.tokenize_data of <data.DataModule object at 0x00000249CBE20C70>> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
