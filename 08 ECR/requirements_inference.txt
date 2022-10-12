@@ -14,3 +14,4 @@ fastapi
 uvicorn
 dvc
 dvc[s3]
+s3fs==2021.10.0

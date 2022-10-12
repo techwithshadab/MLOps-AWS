@@ -10,3 +10,4 @@ uvicorn
 dvc
 tokenizers==0.10.2
 transformers==4.5.1
+s3fs==2021.10.0
