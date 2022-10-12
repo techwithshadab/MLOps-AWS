@@ -1,4 +1,4 @@
-name: Create & Puch Docker Container to ECR
+name: Create and Push Docker Container to ECR
 on: [push]
 jobs:
   docker-container:
