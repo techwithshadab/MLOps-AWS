@@ -19,7 +19,7 @@ jobs:
           aws-region: us-east-1
       - name: Build Container
         run: |
-          docker build --build-arg AWS_ACCESS_KEY_ID=${{secrets.AWS_ACCESS_KEY_ID}} --build-arg AWS_SECRET_ACCESS_KEY=${{secrets.AWS_SECRET_ACCESS_KEY}}  -t mlops-aws:latest .
+          docker build --build-arg AWS_ACCESS_KEY_ID=${{secrets.AWS_ACCESS_KEY_ID}} --build-arg AWS_SECRET_ACCESS_KEY=${{secrets.AWS_SECRET_ACCESS_KEY}} -t mlops-aws:latest .
       - name: Push to ECR
         id: ecr
         uses: jwalton/gh-ecr-push@v1
@@ -29,3 +29,5 @@ jobs:
           region: us-east-1
           image: mlops-aws:latest
  
+      - name: Lambda Image
+        run: aws lambda update-function-code --function-name MLOPS-AWS --image-uri 551850732389.dkr.ecr.us-east-1.amazonaws.com/mlops-aws:latest
